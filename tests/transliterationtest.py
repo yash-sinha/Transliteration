@@ -31,7 +31,7 @@ class TransliterationTest(unittest.TestCase):
         result = self.t.transliterate(self.kn, "ta_IN")
         print result.encode('utf-8')
         self.assertEqual(result,
-                         u"நமஸ்காரஇதுகந்நடபட்யட்ராந்ஸ்லிடரேஷந்பரீக்ஷெகாகி")
+                         u"நமஸ்கார இது கந்நட பட்ய ட்ராந்ஸ்லிடரேஷந் பரீக்ஷெகாகி ")
 
     def testEnglishToHindi(self):
         result = self.t.transliterate(self.en, "hi_IN")
